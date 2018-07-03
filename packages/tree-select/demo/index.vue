@@ -21,7 +21,19 @@ export default {
       group3: '江苏',
       city1: [{
         text: '杭州',
-        id: 1001
+        id: 1001,
+        children:[
+            {
+              text: '杭州-AAA',
+              id: 1102
+            }, {
+              text: '杭州-BBB',
+              id: 1103
+            }, {
+              text: '杭州-CCC',
+              id: 1104
+            }
+        ]
       }, {
         text: '温州',
         id: 1002
